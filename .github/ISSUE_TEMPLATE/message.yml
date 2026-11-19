@@ -1,0 +1,12 @@
+name: 留言
+description: 留一句来意
+title: "想聊："
+body:
+  - type: textarea
+    id: intent
+    attributes:
+      label: 来意
+      description: 你在做什么，想对哪一件事。口径、案例和数据不用写在这里。
+      placeholder: 我在做贷中策略，想对一下……
+    validations:
+      required: true
